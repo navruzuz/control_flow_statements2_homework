@@ -1,10 +1,9 @@
 def main(a,b):
-    """
-    Return zero if the numbers are equal, return the larger one if they are not equal.
-    Args:
-        a: First number.
-        b: Second number.
-    Returns:
-        int: return answer.
-    """
-    return
+    max=a
+    if max<b:
+        max=b
+    if a==b:
+        return 0
+    else:
+        return max
+print(main(3,3))

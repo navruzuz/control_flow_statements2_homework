@@ -1,11 +1,8 @@
 def main(a,b,c):
-    """
-    Find the largest of the numbers.
-    Args:
-        a: First number.
-        b: Second number.
-        c: Third number.
-    Returns:
-        int: return answer.
-    """
-    return
+    if a>b and a>c:
+        print('a raqami eng katta')
+    if b>a and b>c:
+        print('b raqami eng katta')
+    if c>a and c>b:
+        print('c raqami eng katta')
+print(main(5,8,4))
